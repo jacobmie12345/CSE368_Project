@@ -7005,10 +7005,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7265201833361386593, guid: b6db79d2795690f4885bc2a73d875829, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 7870083898317034323, guid: b6db79d2795690f4885bc2a73d875829, type: 3}
       propertyPath: m_Name
       value: Mario
