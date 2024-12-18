@@ -1,0 +1,22 @@
+# do this in conda terminal
+
+# create and activate a new conda environment
+conda create -n gymenv -y
+conda activate gymenv
+
+# install python 3.11
+conda install python=3.11 -y
+
+# Install gymnasium and its packages
+conda install gymnasium[classic-control]
+conda install gymnasium[mujoco]
+conda install gymnasium[atari]
+
+#install swig
+conda install swig -y
+
+# box2d installation
+conda install gymnasium[box2d]
+
+# gpu acellearion
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
